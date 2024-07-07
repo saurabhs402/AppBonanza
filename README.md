@@ -1,4 +1,4 @@
-# Next Labs
+# AppBonanza
 
 ## Admin Credentials(Only Admin of Site)
   **email-saurabh@gmail.com**
