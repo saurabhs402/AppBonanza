@@ -1,4 +1,5 @@
 # AppBonanza
+AppRewarder is a Django and React-based web application that enables administrators to reward users for downloading and using Android apps. Users can sign up, view their profiles, track points earned, and submit task completion screenshots. This project includes a fully functional REST API, user authentication, and permissions setup, ensuring a secure and robust experience for both admins and users.
 
 ## Admin Credentials(Only Admin of Site)
   **email-saurabh@gmail.com**
