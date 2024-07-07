@@ -1,6 +1,12 @@
 # AppBonanza
 AppRewarder is a Django and React-based web application that enables administrators to reward users for downloading and using Android apps. Users can sign up, view their profiles, track points earned, and submit task completion screenshots. This project includes a fully functional REST API, user authentication, and permissions setup, ensuring a secure and robust experience for both admins and users.
 
+# Deployment
+
+Backend Link: https://saurabhss402.pythonanywhere.com/
+
+Deployed Frontend Link: https://app-bonanza-saurabh.vercel.app/
+
 ## Admin Credentials(Only Admin of Site)
   **email-saurabh@gmail.com**
 
@@ -14,18 +20,11 @@ AppRewarder is a Django and React-based web application that enables administrat
  ### email-rahul@gmail.com
  ### password- rahul1234
 
-
-# Deployment
-
-Backend Link: https://saurabhss402.pythonanywhere.com/
-
-Deployed Frontend Link: https://next-labs-frontend-rho.vercel.app/
-
 # Run in Local Environment
 
 ## Clone Repository
 ```bash
-git clone https://gitlab.com/saurabhs402/nextlab.git
+git clone https://github.com/saurabhs402/AppBonanza.git
 ```
 
 ## Folders
