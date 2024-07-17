@@ -41,13 +41,14 @@ const Login = function () {
 
   useEffect(function(){
 
-      axios.get("http://localhost:8000/api/auth/", {
+      axios
+        .get("https://saurabhss402.pythonanywhere.com/api/auth/", {
           headers: {
-            Authorization: `Bearer ${localStorage.getItem("token")}` // Send JWT token in the Authorization header
+            Authorization: `Bearer ${localStorage.getItem("token")}`, // Send JWT token in the Authorization header
           },
         })
         .then((response) => {
-          navigate('/userApps')
+          navigate("/userApps");
           console.log("User profile updated successfully:", response.data);
         })
         .catch((error) => {

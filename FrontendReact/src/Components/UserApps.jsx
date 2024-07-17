@@ -32,7 +32,7 @@ const UserApps=function(){
 
     console.log(data)
     axios
-      .patch("http://localhost:8000/api/user/update/", data, {
+      .patch("https://saurabhss402.pythonanywhere.com/api/user/update/", data, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`, // Send JWT token in the Authorization header
           "Content-Type": "application/json", // Specify JSON content type
